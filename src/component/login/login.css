@@ -1,0 +1,150 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fafafa;
+  }
+  
+  .content-wrapper {
+    max-width: 935px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-section img {
+    height: 600px;
+    margin-right: 32px;
+  }
+  
+  .login-section {
+    max-width: 350px;
+  }
+  
+  .card {
+    border: 1px solid #dbdbdb;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    min-width: 132%;
+  }
+  
+  .font-instagram {
+    font-family: 'Billabong', cursive;
+    font-size: 2.5rem;
+  }
+  
+  .or-divider {
+    position: relative;
+    margin: 20px 0;
+    color: #8e8e8e;
+  }
+  
+  .or-divider span {
+    background-color: #fff;
+    padding: 0 10px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .or-divider:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #dbdbdb;
+    z-index: 0;
+  }
+  
+  .btn-primary {
+    background-color: #0095f6;
+    border-color: #0095f6;
+  }
+  
+  .btn-link {
+    color: #03205e;
+    font-weight: bold;
+  }
+  
+  .text-primary {
+    color: #0095f6 !important;
+  }
+  
+  .app-badge {
+    height: 40px;
+    margin: 0 5px;
+  }
+  .ig-text{
+    margin-bottom: 0px;
+  }
+  *{
+    font-size: 14px;
+    background-color: white;
+  }
+  .ig-text-forgot{
+    color: #03205e;
+  }
+  .download-section{
+    min-width: 132%;
+  }
+  .ig-icon{
+    margin-top: -18px;
+    right: 30px;
+    cursor: pointer;
+  }
+  .font-instagram{
+    margin-left: 22%;
+    width: 184px;
+  }
+  @media only screen and (max-device-width: 430px) {
+    .card {
+        background-color: #ffffff;
+        margin-bottom: 10px;
+        min-width: 132%;
+        margin-left: 5%;
+      }
+    .download-section{
+        min-width: 132%;
+        margin-left: 5%;
+      }
+}
+@media only screen and (max-device-width: 412px) {
+  .card {
+      background-color: #ffffff;
+      margin-bottom: 10px;
+      min-width: 132%;
+      margin-left: 5%;
+    }
+  .download-section{
+      min-width: 132%;
+      margin-left: 5%;
+    }
+}
+@media only screen and (max-device-width: 768px) {
+  .card {
+      background-color: #ffffff;
+      margin-bottom: 10px;
+      min-width: 132%;
+      margin-left: 5%;
+    }
+  .download-section{
+      min-width: 132%;
+      margin-left: 20%;
+    }
+}
+@media only screen and (max-device-width: 1024px) {
+  .card {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    min-width: 100%;
+    margin-left: 20%;
+  }
+
+  .download-section {
+    min-width: 100%;
+    margin-left: 20%;
+    margin-bottom: 2%;
+  }
+} 
