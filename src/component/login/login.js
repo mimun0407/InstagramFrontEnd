@@ -52,7 +52,7 @@ const Login = () => {
                         </div>
                         <button className="btn btn-link text-decoration-none w-100">
                             <a className='text-decoration-none btn-link ' href='https://www.facebook.com/login/?locale=vi_VN'>
-                            <FaFacebookSquare /> Log in with Facebook
+                                <FaFacebookSquare /> Log in with Facebook
                             </a>
                         </button>
                         <p className="text-center mt-3">
